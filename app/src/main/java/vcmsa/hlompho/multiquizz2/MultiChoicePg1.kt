@@ -25,6 +25,7 @@ class MultiChoicePg1 : AppCompatActivity() {
 
         class QuizActivity : AppCompatActivity() {
 // I used Hlompho xolo knowledge to help me with this code
+            //Used Mr els's repo for some of the code
             //The link : https://chatgpt/multiQuizz.com/hlompho/
             val questions = arrayOf(
                 "Nelson Mandela was the president in 1994",
@@ -33,7 +34,7 @@ class MultiChoicePg1 : AppCompatActivity() {
                 "The Eiffel Tower is located in Paris",
                 "The Mona Lisa was painted by Leonardo da Vinci"
             )
-// I used chatgbt and gemini to help me  with this code
+// I used chatgpt and gemini to help me  with this code
             val answers = arrayOf(
                 true, false, false, true, true
             )
@@ -100,7 +101,7 @@ class MultiChoicePg1 : AppCompatActivity() {
                 trueButton.isEnabled = false
                 falseButton.isEnabled = false
                 nextButton.visibility = View.VISIBLE
-// This is where I ended up using both chatgbt and gemini for this code
+// This is where I ended up using both chatgpt and gemini for this code
 
 
                 //code ends here
