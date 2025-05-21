@@ -20,11 +20,13 @@ class MainActivity : AppCompatActivity() {
         }
         //code here
 
+        //used Mr Els's repo
+        //link tp repo
         val btStartQuiz = findViewById<Button>(R.id.btStartQuiz)
         btStartQuiz.setOnClickListener {
             val intent = Intent(this, MultiChoicePg1::class.java)
             startActivity(intent)
-
+        //end of borrowed code
             //code ends here
         }
 
