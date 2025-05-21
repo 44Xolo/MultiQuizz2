@@ -7,4 +7,99 @@
     android:layout_height="match_parent"
     tools:context=".MultiChoicePg1">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/r__1_" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="169dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:text="MultiQuizz"
+            android:textColor="#E4D1D1"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="183dp"
+            android:text="Question goes here"
+            android:textColor="#F6F3F3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/trueButton"
+            android:layout_width="242dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="120dp"
+            android:text="True"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/ImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/questionText" />
+
+        <Button
+            android:id="@+id/falseButton"
+            android:layout_width="243dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="80dp"
+            android:text="False"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trueButton" />
+
+        <TextView
+            android:id="@+id/feedbackText"
+            android:layout_width="108dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="40dp"
+            android:text="&quot;&quot;"
+            android:textAlignment="center"
+            android:textColor="#EFEEEE"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/falseButton" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Next"
+            android:textColor="#FFF8F8"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/ImageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
