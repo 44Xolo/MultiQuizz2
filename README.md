@@ -8,10 +8,8 @@ The Multiple Choice Quiz Android app is an interactive and user-friendly applica
 Features
 - Topic cover in quizz is under variety of topics
 - User-friendly interface with intuitive navigation
-- Wide range of quiz categories and topics
-- Timed and untimed quiz modes
+- Limited range of quiz categories and topics
 - Score tracking and performance analytics
-- Randomized questions for fair play
 - Ability to review answers after completion
 - Offline functionality for uninterrupted access
 
@@ -51,3 +49,5 @@ Contributions are welcome! If you’d like to improve the app:
 
 License
 This project is license under the Varsity College License.
+
+Report
