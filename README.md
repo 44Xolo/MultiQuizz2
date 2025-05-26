@@ -17,7 +17,9 @@ Installation
 To set up the app on your Android device, follow these steps:
 1. Download the APK file from the provided source.
 2. Enable installation from unknown sources in your device settings.
-3. Install the app and launch it.
+3. Install the app and launch it.![Screenshot 2025-05-21 080204](https://github.com/user-attachments/assets/cd21651d-30af-4a30-8ca6-929588aea3b8)
+![Screenshot 2025-05-21 080119](https://github.com/user-attachments/assets/88c7a431-2f3c-405a-a486-be7fa8858f1c)
+
 
 For developers:
 1. Clone the repository:  
@@ -47,7 +49,14 @@ Contributions are welcome! If you’d like to improve the app:
 - Submit a pull request with detailed descriptions.
 - Ensure your code is well-documented and adheres to best practices.
 
+
 License
 This project is license under the Varsity College License.
 
+Youtube link
+https://youtube.com/shorts/LKYTKB4ipcA?feature=share
+
 Report
+I created the app when I realized I struggled to pay attention to History and always found it boring. To solve this issue, I decided to use a fun and different style for learning. I turned History into a multiple choice quiz to make the subject more interesting, straightforward to follow and help students remember what they learned.
+
+
